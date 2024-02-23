@@ -1,0 +1,41 @@
+/* .right-side {
+    float: right;
+    margin-right: 100px; 
+    margin-bottom: 0px;
+} */
+.right-side {
+    position: absolute; 
+    top: 20px; 
+    right: 80px; 
+}
+body {
+    font-family: HK Grotesk;
+    background-color: rgb(176,196,222);
+  }
+  .vertical-line {
+    border-left: 3px solid rgb(105,105,105); /* Đường gạch đứng màu đen */
+    height: 152%; /* Chiều cao tương ứng với chiều cao của phần tử cha */
+    position: absolute; /* Sử dụng vị trí tuyệt đối */
+    top: 0; /* Bắt đầu từ đỉnh của phần tử cha */
+    right: 27%; /* Đặt ở giữa phần tử cha theo chiều ngang */
+    transform: translateX(50%); 
+}
+h2{
+    background-color: rgb(255,228,196);
+    padding:10px;
+    width:70%;
+    
+}
+h3{
+    font-size: medium;
+}
+#chatbox {
+    background-color: white;
+    right:20%;
+    width: 90%;
+    height: 512px;
+    overflow-y: auto;
+    border: 1px solid #0c0202;
+    padding: 10px;
+    margin-bottom: 10px;
+}
